@@ -42,7 +42,7 @@ const ApiDocs = () => {
             </pre>
 
 						<h3 className='text-2xl font-semibold mb-4'>Error Responses</h3>
-						<p className='mb-4'>If parameters are missing or invalid, you'll receive error messages.</p>
+						<p className='mb-4'>If parameters are missing or invalid, you&apos;ll receive error messages.</p>
 						<pre className='bg-gray-800 text-white p-6 rounded-lg mb-4'>
               <code>
                 {JSON.stringify({ error: "The 'text' field is required." }, null, 2)}
