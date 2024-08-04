@@ -36,7 +36,7 @@ const ApiDocs = () => {
             </pre>
 
 						<h3 className='text-2xl font-semibold mb-4'>Error Responses</h3>
-						<p className='mb-4'>If the body is empty, you'll receive an error message.</p>
+						<p className='mb-4'>If the body is empty, you&apos;ll receive an error message.</p>
 						<pre className='bg-gray-800 text-white p-6 rounded-lg mb-4'>
               <code>
                 {JSON.stringify({ error: "The body text is required." }, null, 2)}
@@ -79,7 +79,7 @@ const ApiDocs = () => {
             </pre>
 
 						<h3 className='text-2xl font-semibold mb-4'>Error Responses</h3>
-						<p className='mb-4'>If the body is empty, you'll receive an error message.</p>
+						<p className='mb-4'>If the body is empty, you&apos;ll receive an error message.</p>
 						<pre className='bg-gray-800 text-white p-6 rounded-lg mb-4'>
               <code>
                 {JSON.stringify({ error: "The body text is required." }, null, 2)}
