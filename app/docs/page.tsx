@@ -17,7 +17,7 @@ const ApiDocs = () => {
 
 				<div className='text-white'>
 					<section className='mb-8'>
-						<h2 className='text-3xl font-semibold mb-4'>POST /api/v1/encode</h2>
+						<h2 className='text-3xl font-semibold mb-4 underline text-primary-dark'>POST /api/v1/encode</h2>
 						<p className='mb-6'>This endpoint performs encoding of the provided plain text.</p>
 
 						<h3 className='text-2xl font-semibold mb-4'>Request Body</h3>
@@ -60,7 +60,7 @@ const ApiDocs = () => {
               </code>
             </pre>
 
-						<h2 className='text-3xl font-semibold mb-4'>POST /api/v1/decode</h2>
+						<h2 className='text-3xl font-semibold mb-4 underline text-primary-dark'>POST /api/v1/decode</h2>
 						<p className='mb-6'>This endpoint performs decoding of the provided plain text.</p>
 
 						<h3 className='text-2xl font-semibold mb-4'>Request Body</h3>
