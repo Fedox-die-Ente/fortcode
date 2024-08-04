@@ -73,6 +73,11 @@
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
 }
 
+.blue-glow {
+  color: #4C73FF;
+  text-shadow: 0 0 10px #4C73FF, 0 0 20px #4C73FF, 0 0 30px #4C73FF;
+}
+
 /* 171C23 */
 /* 13161C */
 .cool-bg {
