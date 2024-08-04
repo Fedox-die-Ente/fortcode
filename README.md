@@ -10,14 +10,17 @@
 [![license](https://img.shields.io/badge/license-AGPL3.0-blue.svg)](LICENSE)
 
 ## 🌐 Demo
-Here is a working live demo:  https://cohort3-coding-crew-job-it.vercel.app/
+Here is a working live demo:  /
 
 ## 📝 Description
-Welcome to my project! Here, I'll provide you with a brief overview of what inspired me to create it, why it solves a problem, and what I've learned throughout its development.
-- Motivation: I was motivated to build this project to address a specific issue and to enhance my coding skills.
-- Why I Built This Project: My main goal was to create a practical and user-friendly solution to a real-world problem.
-- Problem Solved: This project aims to simplify a particular task, making it more efficient and accessible.
-- What I Learned: Throughout the development process, I gained valuable insights into various technologies and programming concepts.
+Welcome to my project! FortCode is a fun and creative tool designed to encrypt and decrypt Fortnite-related words. Here’s a quick overview of what inspired me, why it’s a unique solution, and what I’ve learned along the way:
+- **Motivation**: I created FortCode as a playful challenge to combine my love for coding with my interest in Fortnite. The goal was to develop a project that adds a touch of gaming flair to cryptographic techniques.
+- **Why I Built This Project**: The main objective of FortCode is to provide a unique way for Fortnite fans to encode and decode their favorite terms and phrases. It’s designed to be both entertaining and practical for those who want to keep their gaming discussions fun and secure.
+- **Problem Solved**: FortCode simplifies the process of encoding Fortnite-related vocabulary, making it more engaging for players to communicate in a code they can create and share. It adds an extra layer of excitement to game-related conversations.
+- **What I Learned**: Throughout the development of FortCode, I deepened my understanding of encryption algorithms and string manipulation techniques. This project has also enhanced my skills in creating user-friendly applications with a touch of creativity.
+
+Feel free to dive into FortCode and see how it transforms your Fortnite language into a secret code!
+
 
 ### ⚒️ How to Contribute
 Want to contribute? Great!
