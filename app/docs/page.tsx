@@ -1,15 +1,13 @@
-// pages/api-docs.tsx
-
 import React from 'react';
+import {decode, encode} from "../../lib/encoder";
 
 const ApiDocs = () => {
 
-	// Example request body formatted as plain text
-	const exampleRequestBody = `hello`; // Example text to be encoded or decoded
+	const exampleRequestBody = `hello`;
 
 	return (
 		<main className='bg-dark-200 w-full h-full flex items-center justify-center p-4'>
-			<div className='cool-bg p-8 w-full rounded-2xl border border-dark-300'>
+			<div className='cool-bg p-8 w-full rounded-2xl border border-dark-300 overflow-x-hidden'>
 				<header className='bg-dark-300 p-6 text-white mb-8'>
 					<h1 className='text-4xl font-bold'>API Documentation</h1>
 					<p className='mt-2 text-xl'>Documentation for the API endpoints in this application.</p>
@@ -22,7 +20,7 @@ const ApiDocs = () => {
 
 						<h3 className='text-2xl font-semibold mb-4'>Request Body</h3>
 						<pre className='bg-gray-800 text-white p-6 rounded-lg mb-6'>
-              <code>
+              <code className={'max-w-prose'}>
                 {exampleRequestBody}
               </code>
             </pre>
@@ -30,8 +28,8 @@ const ApiDocs = () => {
 						<h3 className='text-2xl font-semibold mb-4'>Responses</h3>
 						<p className='mb-4'>Successful response contains the encoded text.</p>
 						<pre className='bg-gray-800 text-white p-6 rounded-lg mb-6'>
-              <code>
-                {`FortniteRP Fortnite SkullTrooper. FortniteRP Fortnite FortniteRP. FortniteRP Fortnite FN. FortniteRP Fortnite FN. FortniteRP FortniteRP FortniteRP`}
+               <code className={'max-w-prose break-all'}>
+                {`${encode(exampleRequestBody)}`}
               </code>
             </pre>
 
@@ -56,7 +54,7 @@ const ApiDocs = () => {
 						<h3 className='text-2xl font-semibold mb-4'>Example Response</h3>
 						<pre className='bg-gray-800 text-white p-6 rounded-lg mb-6'>
               <code>
-                {`FortniteRP Fortnite SkullTrooper. FortniteRP Fortnite FortniteRP. FortniteRP Fortnite FN. FortniteRP Fortnite FN. FortniteRP FortniteRP FortniteRP`}
+                {`${encode(exampleRequestBody)}`}
               </code>
             </pre>
 
@@ -66,7 +64,7 @@ const ApiDocs = () => {
 						<h3 className='text-2xl font-semibold mb-4'>Request Body</h3>
 						<pre className='bg-gray-800 text-white p-6 rounded-lg mb-6'>
               <code>
-                {exampleRequestBody}
+                {encode(exampleRequestBody)}
               </code>
             </pre>
 
@@ -74,7 +72,7 @@ const ApiDocs = () => {
 						<p className='mb-4'>Successful response contains the decoded text.</p>
 						<pre className='bg-gray-800 text-white p-6 rounded-lg mb-6'>
               <code>
-                {`hello`}
+                {`${decode(encode(exampleRequestBody))}`}
               </code>
             </pre>
 
@@ -99,7 +97,7 @@ const ApiDocs = () => {
 						<h3 className='text-2xl font-semibold mb-4'>Example Response</h3>
 						<pre className='bg-gray-800 text-white p-6 rounded-lg mb-6'>
               <code>
-                {`hello`}
+                {`${decode(encode(exampleRequestBody))}`}
               </code>
             </pre>
 
