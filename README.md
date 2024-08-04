@@ -1,8 +1,5 @@
 # FortCode
 
-[![Stars](https://img.shields.io/github/stars/Fedox-die-Ente/fortcode?style=social)](https://fortcode.fedox.ovh)
-[![Fork](https://img.shields.io/github/forks/Fedox-die-Ente/fortcode?style=social)](https://fortcode.fedox.ovh)
-
 ![demo](https://i.imgur.com/1GjEaHz.png)
 
 ![PRs](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=shields)
