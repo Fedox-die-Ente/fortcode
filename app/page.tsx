@@ -7,7 +7,8 @@ import InputSection from '../components/form/InputSection';
 import OutputSection from '../components/form/OutputSection';
 import ModeSelector from '../components/form/ModeSelector';
 
-const Layout = ({ children }: { children: React.ReactNode }) => {
+export default function Page() {
+
     const [inputText, setInputText] = useState<string>("");
     const [outputText, setOutputText] = useState<string>("");
     const [mode, setMode] = useState<string>("encode");
@@ -48,5 +49,3 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         </main>
     );
 };
-
-export default Layout;
