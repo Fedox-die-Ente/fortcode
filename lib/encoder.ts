@@ -1,3 +1,14 @@
+//         _______ _______ ______ _   _ _______ _____ ____  _   _
+//      /\|__   __|__   __|  ____| \ | |__   __|_   _/ __ \| \ | |
+//     /  \  | |     | |  | |__  |  \| |  | |    | || |  | |  \| |
+//    / /\ \ | |     | |  |  __| | . ` |  | |    | || |  | | . ` |
+//   / ____ \| |     | |  | |____| |\  |  | |   _| || |__| | |\  |
+//  /_/    \_\_|     |_|  |______|_| \_|  |_|  |_____\____/|_| \_|
+
+// THIS CODE IS SHIT. ITS NOT SAFE. DONT USE IT FOR BIG PROTECTION SYSTEMS!!!
+// I DONT TAKE RESPONSIBILITY FOR ANYTHING THAT HAPPENS WHEN YOU USE THIS CODE.
+// YOU HAVE BEEN WARNED.
+
 const languages = [
     'Fortnite', 'FortniteRP', 'BattleBus', 'VBucks', 'SkullTrooper', 'ChugJug',
     'Noob', 'Dance', 'FN', 'Pickaxe', 'V-Bucks', 'Epic', 'Legendary', 'Fedox', 'GameOver'
